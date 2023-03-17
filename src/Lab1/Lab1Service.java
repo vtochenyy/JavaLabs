@@ -1,9 +1,6 @@
 package Lab1;
 
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Lab1Service {
     private final List<Integer> numbers;
@@ -11,6 +8,9 @@ public class Lab1Service {
 
     public Lab1Service(Collection<Integer> numbers) {
         this.numbers = numbers.stream().toList();
+    }
+    public Lab1Service() {
+        this.numbers = new ArrayList<>();
     }
 
     public void checkIsEquals() {
@@ -43,6 +43,14 @@ public class Lab1Service {
                 .toList();
         this.median = hashSetToMedianOfColletion.get((hashSetToMedianOfColletion.size() - 1) / 2);
         System.out.println("5. Median of collection " + hashSetToMedianOfColletion + " is " + this.median);
+    }
+
+    public Integer printMedianOfCollection(Collection<Integer> c) {
+        List<Integer> hashSetToMedianOfColletion = new HashSet<>(c).stream()
+                .sorted()
+                .toList();
+        int median = hashSetToMedianOfColletion.get((hashSetToMedianOfColletion.size() - 1) / 2);
+        return median;
     }
 
     public void printNMinimalValue(int n) {
