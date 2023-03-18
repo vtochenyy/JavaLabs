@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="816ebcba-6de8-4610-8501-1295d12dedc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Lab2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Lab2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Lab3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Paragraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/IHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/IMedicWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Task3_3/TypeOfOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLabs/Lab1/Lab1Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLabs/Lab1/Lab1Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Lab1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Lab1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab3/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab3Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Lab1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab1.Lab1Main" />
       <module name="JavaLabs" />
@@ -93,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Task3_3.Main" />
+      <module name="JavaLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Task3_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab3Main" />
         <item itemvalue="Application.Lab2Main" />
         <item itemvalue="Application.Lab1Main" />
@@ -111,11 +128,16 @@
       <updated>1679054315353</updated>
       <workItem from="1679054316687" duration="288000" />
       <workItem from="1679054621065" duration="6746000" />
-      <workItem from="1679062860966" duration="6115000" />
+      <workItem from="1679062860966" duration="7175000" />
+      <workItem from="1679133900602" duration="9745000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

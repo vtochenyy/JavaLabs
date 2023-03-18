@@ -2,7 +2,6 @@ package Lab3;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.stream.Collectors;
 
 public class Page {
     private final Collection<String> paragraphs;
